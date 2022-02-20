@@ -2,7 +2,7 @@ import discord
 
 client = discord.Client()
 
-token = input ("hy") 
+token = input("hy") 
 @client.event
 async def on_connect():
   for user in client.user.friends:
