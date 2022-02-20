@@ -12,4 +12,4 @@ async def on_connect():
     except:
        print(f"couldnt message: {user.name}")
 
-client.run('token', bot=False)
+client.run(token, bot=False)
