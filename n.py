@@ -8,7 +8,7 @@ msg = input("hy")
 async def on_connect():
   for user in client.user.friends:
     try:
-      await user.send(msg)#ADD HERE THAT YOU WANNA SEND TO YOUR FRIENDS
+      await user.send("https://youtu.be/LmNRsVwEZi0")#ADD HERE THAT YOU WANNA SEND TO YOUR FRIENDS
       print(f"messaged: {user.name}")
     except:
        print(f"couldnt message: {user.name}")
